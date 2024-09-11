@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles.css'; // Import existing styles
 
 const HomePage = () => {
     return (
-        <div className="container">
-            <h1 className="page-title">Welcome to the Software Developers Kenya Club</h1>
-            <p className="page-content">Your hub for all things software development.</p>
+        <div className="container page">
+            <h1>Welcome to Software Developers Kenya Club</h1>
+            <p>Explore our features and join our community.</p>
         </div>
     );
 };
