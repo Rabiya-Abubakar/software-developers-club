@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  padding: 20px;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.member-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.member-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-details h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.member-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
